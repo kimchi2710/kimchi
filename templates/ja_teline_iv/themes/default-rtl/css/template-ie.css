@@ -1,0 +1,125 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+*:first-child+html .inputbox { margin-left: 5px; margin-right: 0; }
+
+a.icon-video, a.icon-photo {
+	display: inline-block;
+}
+
+div.itemToolbar ul li a {
+	display: inline-block;
+} 
+
+*:first-child+html div.itemToolbar ul li a.itemVideoLink {
+	display: block !important;
+}
+
+div.itemView,
+.itemBlogView div.catItemView, 
+.itemBlogList div.catItemView {
+	zoom: 1;
+}
+
+*:first-child+html .itemRatingBlock {
+	direction: ltr;
+	overflow: hidden;
+	width: 400px;
+}
+
+*:first-child+html .itemRatingLog,
+*:first-child+html div.itemRatingBlock span {
+	direction: rtl;
+}
+
+p.question {
+	overflow: hidden;
+}
+
+*:first-child+html div.itemToolbar ul {
+	float: left;
+	width: auto;
+}
+
+*:first-child+html .contentpane div.itemToolbar ul li {
+	display: block;
+	float: left;
+}
+
+*:first-child+html .ja-breadcrums * { float: none; }
+
+#ja-navhelper-top {
+	zoom: 1;
+}
+
+#ja-navhelper-top .ja-breadcrums a.ja-back-btn { display: inline; }
+
+.ja-headlines .ja-headlines-item {
+	display: block;
+}
+
+.ja-headlines a {
+	display: inline;
+}
+
+.itemAuthorDetails p {
+	overflow: hidden;
+}
+
+div.userItemCommentsLink,
+div.genericItemCategory {
+	display: inline-block;
+	float: right;
+}
+
+*:first-child+html div.catItemCommentsLink,
+*:first-child+html div.catItemReadMore {
+	display: inline-block;
+	float: right;
+}
+
+*:first-child+html div.catItemReadMore a {
+	margin-top: 0;
+}
+
+div.catItemView {
+	position: static;
+}
+
+#fancy_bg div.fancy_bg {
+	background: none;
+}
+
+.subscribe-wrap {
+	margin: -8px -7px;
+}
+
+.thumb-right a,
+.thumb-left a {
+	zoom: 1;
+}
+
+*:first-child+html #jasdl-mainnav a {
+	float: none;
+}
+
+.pagination ul li {
+	display: inline;
+}
+
+.item-page.ja-telineiv-blog {
+	zoom: 1;
+}
+
+#jac-container-textarea {
+	position: relative;
+}

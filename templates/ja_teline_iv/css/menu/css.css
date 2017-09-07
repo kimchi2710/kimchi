@@ -1,0 +1,106 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+#ja-cssmenu { border-bottom: 5px solid #000; }
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#ja-cssmenu li {
+	border-left: 1px solid #ccc;
+	font-family: ArialNarrowBold, "Arial Narrow", Arial, sans-serif;
+}
+
+#ja-cssmenu li a {
+	display: block;
+	margin: 3px;
+	padding: 4px 12px 3px;
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+#ja-cssmenu li a:hover,
+#ja-cssmenu li a.sfhover {
+	color: #fff;
+}
+
+#ja-cssmenu li:hover,
+#ja-cssmenu li.sfhover,
+#ja-cssmenu li.havechildsfhover,
+#ja-cssmenu li.havechild-activesfhover {
+	background: #000;
+	color: #fff;
+}
+
+
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover {
+	background: #000;
+	color: #fff;
+}
+
+/* 2nd level and above */
+#ja-cssmenu li ul {
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+	margin-top: 0;
+	padding-top: 4px;
+}
+
+#ja-cssmenu li li {
+	font-family: Arial, sans-serif;
+}
+
+#ja-cssmenu li ul a {
+	border-right: 0;
+	border-left: 0;
+	margin: 0;
+	padding: 7px 15px;
+	color: #ccc;
+	font-size: 92%;
+	font-weight: normal;
+	text-transform: none;
+	background: none;
+}
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: #2a2a2a;
+}
+
+#ja-cssmenu ul li a.active,
+#ja-cssmenu ul li a.active:hover,
+#ja-cssmenu ul li a.active:active,
+#ja-cssmenu ul li a.active:focus {
+	font-weight: bold;
+}
+
+#ja-cssmenu li ul ul {}
+
+#ja-cssmenu li ul li {
+	border-bottom: 1px solid #2a2a2a;
+	border-left: 0;
+	background: none;
+}

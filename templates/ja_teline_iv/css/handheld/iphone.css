@@ -1,0 +1,43 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+body.iphone #ja-mainnav { border-bottom: 0; }
+
+body.iphone #ja-mainnav .main { margin-bottom: 0; }
+
+body.iphone #ja-mainnav li.home a.home {
+	background: none !important;
+	text-indent: 0.5em;
+	width: auto;
+}
+
+body.iphone #ja-mainnav li.home a.home.active {
+	background: #666 !important;
+}
+
+body.iphone #ja-search .inputbox {
+	background: url(../../images/icons/search.png) no-repeat 10px center #f0f0f0;
+	border: 1px solid #ddd;
+	color: #000;
+	padding-left: 35px;
+}
+
+body.iphone #ja-search form.search,
+body.iphone #ja-search:hover form.search,
+body.iphone #ja-search:focus form.search {
+	background: none;
+	padding-left: 0;
+}
+
+body.iphone a.ip-button {
+	max-width: none;
+}

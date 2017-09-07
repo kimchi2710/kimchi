@@ -1,0 +1,147 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+.ja-zinwrap.pulse { background: #fff; border: 1px solid #ccc; border-top: 0; margin: 2px; }
+
+.pulse .ja-zin { border-top: 5px solid #000; }
+
+.pulse .ja-zin .items-row { margin: 0; padding: 0; background: none; }
+
+.pulse .ja-zin .ja-box .ja-box-inner { margin: 0; padding: 0; }
+
+.pulse .ja-zin .ja-box-first .ja-box-inner { border-top: 0; padding-top: 0; }
+
+.pulse .ja-zin .col-first { background-image: none; }
+
+/* HEADING
+--------------------------------------------- */
+/* Section --- */
+.pulse .ja-zin .ja-zinsec { padding: 0; position: relative; }
+
+.pulse .items-row:hover .ja-zinsec {}
+
+.pulse .items-row:hover .ja-zinsec a {}
+
+.pulse .ja-zinsec h2 {
+	margin: 0 !important;
+	padding: 5px 0 !important;
+	text-transform: uppercase;
+	font: bold 150%/normal Arial, sans-serif;
+	text-indent: 85px;
+	letter-spacing: -1px;
+	border-bottom: 1px solid #ccc;
+	background: #ddd;
+}
+
+.pulse .ja-zinsec h2 a { color: #000; }
+
+/* Category --- */
+.pulse .ja-zincat h3 {
+	padding: 0 12px 0 0 !important;
+	margin: 0 0 2px !important;
+	background: url(../../../images/arrow-3.png) no-repeat right center;
+	font: normal 92%/normal Arial, sans-serif;
+	text-transform: uppercase;
+	float: left;
+}
+
+.pulse .ja-zincat h3 a { color: #999; }
+
+.pulse .ja-zincat h3 a:hover,
+.pulse .ja-zincat h3 a:active,
+.pulse .ja-zincat h3 a:focus { color: #000; text-decoration: none; }
+
+/* PULSE ROW
+------------------------------------------------*/
+.pulse .ja-zin .ja-zinpulse { border-bottom: 1px solid #ccc; display: block; }
+
+.pulse .ja-zin .ja-zinpulse-cell { }
+
+.pulse .ja-zin .ja-zinpulse-cell-inner {
+	display: block;
+	padding: 4px 8px;
+	border-left: 1px solid #ccc;
+	line-height: 50px;
+	min-height: 50px;
+}
+
+.pulse .ja-zin .ja-zinpulse:hover { background: #fffae5;}
+.pulse .row0 { background: #fff; }
+.pulse .row1 { background: #ecf3f7; }
+
+/* Pulse bar ---*/
+.pulse .ja-zinpulse-bar { width: 80px; }
+
+.pulse .ja-zinpulse-bar .ja-zinpulse-cell-inner { border-left: 0; }
+
+.pulse .ja-zinpulse-bar span { margin-top: 10px; }
+
+/* Pulse News ---*/
+.pulse .ja-zinpulse-news { width: 350px; }
+.pulse .ja-zinpulse-news .ja-zinpulse-cell-inner { padding: 4px; }
+
+.pulse .ja-zinpulse-news img { margin: 0 8px 0 0; }
+
+.pulse .ja-zinpulse-news h4.ja-zintitle { margin: 5px 0 3px !important; padding: 0 !important; font-weight: bold; font-size: 100%; }
+
+.pulse .ja-zinpulse-news span.createdby {
+	background: none;
+	padding: 0;
+	margin: 0;
+	color: #999;
+	text-transform: uppercase;
+	font: 92%/normal "Arial Narrow", Arial, sans-serif;
+}
+
+.pulse .ja-zinpulse-news p.readmore a {
+	background: url(../../../images/arrow-l.png) no-repeat left center transparent;
+	padding: 0 0 0 8px;
+	color: #999 !important;
+	text-transform: none;
+	line-height: normal;
+	height: auto;
+}
+
+.pulse .ja-zinpulse-news p.readmore a:hover,
+.pulse .ja-zinpulse-news p.readmore a:active,
+.pulse .ja-zinpulse-news p.readmore a:focus {
+	background-image: url(../../../images/arrow.png);
+	color: #000 !important;
+	text-transform: none;
+}
+
+/* Pulse Cat ---*/
+.pulse .ja-zinpulse-cat { width: 110px; text-align: center; }
+
+.pulse .ja-zinpulse-cat span {
+	margin-top: 5px;
+	display: block;
+	font: bold 92%/normal "Arial Narrow", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.pulse .ja-zinpulse-cat a { color: #666; }
+
+/* Pulse Meta ---*/
+.pulse .ja-zinpulse-meta { width: 90px; text-align: center; }
+
+.pulse .ja-zinpulse-meta span {
+	margin-top: 5px;
+	display: block;
+	font: 92%/normal "Arial Narrow", Arial, sans-serif;
+	text-transform: uppercase;
+	color: #666;
+}
+
+/* MISC
+--------------------------------------------- */
+.pulse .ja-zin p.readmore { float: none; line-height: normal; }

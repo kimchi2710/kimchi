@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>Default</name>
+	<description>JA TelineIV template for December 2011</description>
+	<date>December 2011</date>
+	<version>1.1.0</version>
+	<author>JoomlArt</author>
+	<copyright>JoomlArt</copyright>
+	<stylesheets>
+		<file>css/typo.css</file>
+	</stylesheets>
+	<scripts>
+		
+	</scripts>
+</theme>

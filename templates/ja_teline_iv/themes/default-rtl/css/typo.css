@@ -1,0 +1,17 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+ul.bookmark-links li {
+	background-image: url(../images/arrow.png) !important;
+	background-position: right 10px !important;
+	padding: 5px 10px 5px 0 !important;
+}

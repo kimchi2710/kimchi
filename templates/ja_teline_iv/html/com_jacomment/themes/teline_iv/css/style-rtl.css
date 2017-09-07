@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+html { direction: rtl; }
+
+#plugin_embed a, #plugin_embed_reply a {
+   float: right;
+   margin: 0 0 5px 10px;
+}
+
+#jac-wrapper .plugin_embed .smileys, .jac-mod_content .smileys {	
+   float: right
+}
+
+#jac-wrapper .form-actions ul li, #jac-wrapper .form-actions ul {
+   float: right;
+}
+
+#jac-wrapper li.jac-act-button {
+   left: 0;
+   right: auto;
+}
+
+#jac-close-form {
+   background-position: left top;
+}
+
+#comment_as {
+   float: right;
+}
+
+#form1 {
+   float: left;
+}
+
+#jac-wrapper li span{
+   float: right;
+}
+
+#jac-wrapper .form-userdata span {
+   margin-right: 0;
+   margin-left: 10px;
+}
+
+#jac-new-captcha, .jac-subscribe {
+   float: none !important;
+}
+
+#jac-refresh-image {
+   float: right;
+   margin-right: -22px;
+   margin-left: 0px;
+}
+
+#jac-wrapper #jac_image_captcha {
+   margin-left: 10px;
+   margin-right: 0;
+}
+
+#jac-new-captcha img {
+   float: right;
+}
+
+#jac-wrapper .type_captcha {
+   margin: 0 5px 0 0;
+}
+
+#jac-wrapper .type_captcha span {
+   float: none;
+}
+
+.type_captcha {
+   float: right;
+   margin: 0 10px 0 0;
+}
+
+.jac-addnew a {
+   float: right;
+}
+
+.jac-user-info .jac-avatar {
+   float: right;
+   margin-right: 0;
+   margin-left: 10px;
+}
+
+.jac-user-name-3 {
+   float: right;
+}
+
+.jac-vote-comment {
+   float: left;
+}
+
+.jac-show-report-3 {
+   float:left;
+   margin:0 0 0 5px;
+}
+
+.jac-div-reply {
+   float:right;
+   margin:0 10px 10px 0;
+}
+
+.jac-pagination .jac-display-limit {
+   float:left;
+   text-align:left;
+}
+
+#jac-close-form.active {
+   background-position: left -56px;
+}
+
+#whitebox div {
+   text-align: right !important;
+}
+#jac-login-joomla-form p, #jac-login-joomla-form pre, #jac-login-joomla-form blockquote, #jac-login-joomla-form h1, #jac-login-joomla-form h2, #jac-login-joomla-form h3, #jac-login-joomla-form h4, #jac-login-joomla-form h5, #jac-login-joomla-form h6, .column ol, #jac-login-joomla-form ul {
+   margin:10px 0;	
+   padding:0;
+}
+
+#jac-wrapper .comment-report a {
+   text-decoration: none !important;
+}
+
+#ja-popup {
+   left: 0;
+   right: auto;
+}
+
+#jac-wrapper .comment-contentmain { padding: 15px 75px 15px 10px; }
+
+#jac-wrapper .avatar {
+   left: auto;
+   right: 10px;
+}
+
+#jac-wrapper .comment-action a {
+   float: right;
+}
+
+#jac-wrapper .comment-action a span {
+   float: none;
+}
+
+#jac-container-textarea {
+   overflow: hidden;
+}
+
+#jac-wrapper .comment-heading > span,
+#jac-wrapper .comment-byadmin .comment-heading .comment-user {
+   float: right;
+}
+
+#jac-wrapper .comment-admin,
+#jac-wrapper .comment-report,
+#jac-wrapper .comment-ranking {
+   float: left;
+}
+
+#jac-wrapper .comment-heading .status-btn{
+   float: left;
+}
+
+#jac-wrapper .comment-text ul li {
+   background: url(../images/bullet.gif) no-repeat scroll 98% 6px !important;
+   margin: 0;
+   padding: 0 20px 0 0;
+}
+
+#jac-wrapper .comment-menu { position: relative; }
+
+#jac-wrapper .comment-menu .menu-content {
+   *margin-right: -30px;
+}
+
+#jac-wrapper input.btTxt { float: right; }
+
+#jac-wrapper .comment-heading > span { border-right: 1px dotted #CCCCCC; border-left: none; }
+
+#jac-wrapper .comment-ranking span.comment-rankingresult { float: right; border-left: 1px dotted #CCCCCC; }
+
+#jac-wrapper .comment-heading span.comment-user { float: right; }
+
+#jac-wrapper ol.comment-list div.jac-childen-array { 
+   padding: 15px 30px 15px 10px;
+}

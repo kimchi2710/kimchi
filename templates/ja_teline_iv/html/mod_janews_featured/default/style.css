@@ -1,0 +1,154 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+.ja-zinfp-wrap { }
+
+.ja-zinfp { }
+
+.ja-zinfp {
+	background: url(../../../images/dot5px.gif) repeat-x top #f0f0f0;
+	border: 1px solid #ccc;
+	border-left: 0;
+	border-top: 0;
+	margin-right: 4px;
+	padding: 4px 0 0 0;
+}
+
+.ja-zinfp-main-wrap { }
+
+.ja-zinfp-main { }
+
+/* Featured News ----*/
+.ja-zinfp-featured-wrap {
+	background: url(../../../images/curl-bg.png) no-repeat right -1px;
+	margin-top: -13px;
+}
+
+.ja-zinfp-featured-border {
+	background: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin-right: 8px;
+}
+
+.ja-zinfp-featured h2.ja-zintitle { font-size: 175%; line-height: 1.275; }
+
+.ja-zinfp-featured h2.ja-zintitle a {
+	background: #000;
+	border-bottom: 1px solid #ccc;
+	color: #ccc;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+.ja-zinfp-featured-border:hover h2.ja-zintitle a,
+.ja-zinfp-featured h2.ja-zintitle a:hover,
+.ja-zinfp-featured h2.ja-zintitle a:active,
+.ja-zinfp-featured h2.ja-zintitle a:focus { background: #069; color: #fff; }
+
+.ja-zinfp-featured .ja-zincontent-wrap {}
+
+.ja-zinfp-featured .ja-zincontent {}
+
+.ja-zinfp-featured .ja-zincontent-img {
+	background: #000;
+	border: 5px solid #000;
+	border-bottom: 0;
+	margin: 0;
+}
+
+.ja-zinfp-featured-border:hover .ja-zincontent-img { background: #069; border-color: #069; }
+
+.ja-zinfp-featured .ja-zincontent-img img { border: 1px solid #1f1f1f; }
+
+.ja-zinfp-featured-border:hover .ja-zincontent-img img { border-color: #90bdd3; }
+
+.ja-zinfp-featured .ja-zincontent p { line-height: 1.5; margin: 0 0 8px; padding: 2px 12px; }
+
+/* Normal News ----*/
+.ja-zinfp-normal-wrap {}
+
+.ja-zinfp-normal { padding: 8px 0 0 0; }
+
+.ja-zinfp-normal .ja-zincontent-wrap {}
+
+.ja-zinfp-normal .ja-zincontent { border-bottom: 1px solid #ccc; margin: 1px 8px 1px 0; }
+
+.ja-zinfp-normal .ja-zincontent:hover { background: #069; color: #fff; }
+
+.ja-zinfp-normal .ja-zincontent-img {
+	background: url(../../../images/stripe-bg-2.png) #ddd;
+	border-right: 1px solid #ccc;
+	padding: 6px;
+}
+
+.ja-zinfp-normal .ja-zincontent-img.right { margin-right: 0; margin-left: 8px; float: right; }
+
+.ja-zinfp-normal .ja-zincontent-img img { border: 3px solid #fff !important; margin: 0 !important; float: none !important; }
+
+.ja-zinfp-normal .ja-zincontent:hover .ja-zincontent-img { }
+
+.ja-zinfp-normal .ja-zincontent:hover .ja-zincontent-img img { }
+
+.ja-zinfp-normal h4.ja-zintitle { font-size: 110%; line-height: 1.15; }
+
+.ja-zinfp-normal h4.ja-zintitle a { display: block; padding: 4px 8px; }
+
+.ja-zinfp-normal .ja-zincontent:hover a { background: #069; color: #fff; }
+
+.ja-zinfp-normal h4.ja-zintitle a:hover,
+.ja-zinfp-normal h4.ja-zintitle a:active,
+.ja-zinfp-normal h4.ja-zintitle a:focus { text-decoration: none; }
+
+.ja-zinfp-normal .ja-zinintro { font-size: 92%;padding: 0 8px; }
+
+.ja-zinfp-normal .ja-zinintro p {}
+
+/* Actions */
+.ja-zinfp-links-actions {
+	background: url(../../../images/dot-2.gif) repeat-x top #ddd;
+	width: 343px;
+}
+
+.ja-zinfp-links-actions a,
+.ja-zinfp-links-actions a:focus {
+	border-left: 1px solid #ccc;
+	color: #666;
+	font: 10px/normal Arial, sans-serif;
+	padding: 4px 12px 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.ja-zinfp-links-actions a:hover,
+.ja-zinfp-links-actions a:active { background-color: #000; color: #fff; text-decoration: none; }
+
+a.ja-zinfp-links-actions-prev span {
+	background: url(../../../images/back-btn.png) no-repeat left center;
+	padding-left: 8px;
+	display: inline-block;
+}
+
+a.ja-zinfp-links-actions-next span {
+	background: url(../../../images/next-btn.png) no-repeat right center;
+	padding-right: 8px;
+	display: inline-block;
+}
+
+.ja-zinfp-links-actions span.next { }
+
+.ja-zinfp-links-actions .box-counter {
+	border-right: 1px solid #ccc;
+	color: #666;
+	font: 10px/normal Arial, sans-serif;
+	padding: 4px 12px 3px;
+	text-transform: uppercase;
+}

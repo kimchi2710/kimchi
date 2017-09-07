@@ -1,0 +1,57 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+/* Gutter ---*/
+
+/* ADVANCED CONTENT GRIDS FOR TELINE IV
+--------------------------------------------------------- */
+.item {
+	float: right;
+}
+
+.items-row .item {
+	background-position: right center;
+}
+/* 1 Column */
+
+/* 2 Columns */
+.cols-2 .column-1 .contentpaneopen { padding-left: 15px; padding-right: 0; }
+.cols-2 .column-2 .contentpaneopen { padding-left: 0; padding-right: 15px; }
+/* 3 Columns */
+.cols-3 .column-1 .contentpaneopen { padding-left: 10px; padding-right: 0; }
+.cols-3 .column-2 .contentpaneopen { padding-left: 5px; padding-right: 5px; }
+.cols-3 .column-3 .contentpaneopen { padding-left: 0; padding-right: 10px; }
+
+/* 3 Columns */
+.cols-3 .column-1 .contentpaneopen { padding-left: 20px; padding-right: 0; }
+.cols-3 .column-2 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-3 .column-3 .contentpaneopen { padding-left: 0; padding-right: 20px; }
+
+/* 4 Columns */
+.cols-4 .column-1 .contentpaneopen { padding-left: 20px; padding-right: 0; }
+.cols-4 .column-2 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-4 .column-3 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-4 .column-4 .contentpaneopen { padding-left: 0; padding-right: 20px; }
+
+/* 5 Columns */
+.cols-5 .column-1 .contentpaneopen { padding-left: 20px; padding-right: 0; }
+.cols-5 .column-2 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-5 .column-3 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-5 .column-4 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-5 .column-5 .contentpaneopen { padding-left: 0; padding-right: 20px; }
+
+/* No need to minus spacing for item row */
+
+/* SPOTLIGHT
+--------------------------------------------------------- */

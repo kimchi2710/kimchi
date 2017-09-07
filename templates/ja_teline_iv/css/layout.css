@@ -1,0 +1,103 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+/* Gutter ---*/
+.main .inner {
+/* We use liquid layout, so we need to insert a div which will create margin if need */
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main .main-inner1 {
+/* We use liquid layout, so we need to insert a div which will create margin if need */
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.column div.ja-moduletable, .column div.moduletable, .column div.ja-module, .column div.module { 
+/* for side columns and spotlight, we only need to add margin or padding to Module */
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.ja-inset2 div.ja-moduletable, .ja-inset2 .div.moduletable, .ja-inset2 div.ja-module, .ja-inset2 div.module {
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.ja-inset1 div.ja-moduletable, .ja-inset1 .div.moduletable, .ja-inset1 div.ja-module, .ja-inset1 div.module {
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.item .contentpaneopen {
+/* for article columns, we only need to add margin or padding to this div  */
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.items-leading { }
+
+.items-row {
+/* minus the spacing of the article row to macth with the Gutter & global grid */
+	margin-left: -15px;
+	margin-right: -15px; 
+}
+
+/* ADVANCED CONTENT GRIDS FOR TELINE IV
+--------------------------------------------------------- */
+.item .contentpaneopen {
+/* for article columns, we only need to add margin or padding to this div  */
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* 1 Column */
+.cols-1 .item .contentpaneopen { padding-left: 0; padding-right: 0; }
+
+/* 2 Columns */
+.cols-2 .column-1 .contentpaneopen { padding-left: 0; }
+.cols-2 .column-2 .contentpaneopen { padding-right: 0; }
+
+/* 3 Columns */
+.cols-3 .column0 .contentpaneopen { padding-left: 0; padding-right: 10px; }
+.cols-3 .column1 .contentpaneopen { padding-left: 5px; padding-right: 5px; }
+.cols-3 .column2 .contentpaneopen { padding-left: 10px; padding-right: 0; }
+
+/* 3 Columns */
+.cols-3 .column0 .contentpaneopen { padding-left: 0; padding-right: 20px; }
+.cols-3 .column1 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-3 .column2 .contentpaneopen { padding-left: 20px; padding-right: 0; }
+
+/* 4 Columns */
+.cols-4 .column0 .contentpaneopen { padding-left: 0; padding-right: 20px; }
+.cols-4 .column1 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-4 .column2 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-4 .column3 .contentpaneopen { padding-left: 20px; padding-right: 0; }
+
+/* 5 Columns */
+.cols-5 .column0 .contentpaneopen { padding-left: 0; padding-right: 20px; }
+.cols-5 .column1 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-5 .column2 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-5 .column3 .contentpaneopen { padding-left: 10px; padding-right: 10px; }
+.cols-5 .column4 .contentpaneopen { padding-left: 20px; padding-right: 0; }
+
+/* No need to minus spacing for item row */
+.items-row { margin-left: 0; margin-right: 0; }
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+
+.ja-box { float: none; overflow: visible; }
+.ja-box-right { position: absolute; right: 0; }

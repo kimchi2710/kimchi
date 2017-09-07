@@ -1,0 +1,53 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA News Pro Module for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites: http://www.joomlart.com - http://www.joomlancers.com
+ * ------------------------------------------------------------------------
+ */
+
+/* MISC.
+------------------------------------------------*/
+/* Ghost container when moving ---*/
+.ja-ghost .items-row {
+	border: 2px solid #ddd;
+	background: #EBF2F7;
+	padding: 0;
+}
+
+.ja-ghost .ja-box-inner {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.move {
+	border: 2px dotted #999 !important;
+}
+
+.move-wrap .items-row:hover .ja-zinsec {
+	background: #f7f7f7!important; 
+	color: #000 !important;
+}
+
+/* 1st & last row/column style ---*/
+.row-last { border-bottom: 0 !important; }
+
+.ja-mod-inner { position: relative; }
+.tool-tip{
+	max-width: 300px;
+}
+.tool-tip img{
+	max-width: 290px;
+	float: left;
+	padding-right: 5px; 
+	padding-bottom: 5px;
+}
+
+/***Fix error tools tip***/
+.tip-wrap {
+ max-width: 300px;
+  z-index: 999;
+}

@@ -1,0 +1,132 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+#jasdl-mainnav { 
+   border-bottom: 5px solid #000;
+   border-right: 1px solid #ccc; 
+}
+
+#jasdl-mainnav:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+#jasdl-mainnav li {
+	border-left: 1px solid #ccc;
+	font: ArialNarrowBold, "Arial Narrow", Arial, sans-serif;
+}
+
+#jasdl-mainnav a {
+	display: block;
+	margin: 3px;
+	padding: 4px 8px 3px;
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+#jasdl-mainnav a:hover,
+#jasdl-mainnav ul li.hover a {
+	background: #000;
+	color: #fff;
+}
+
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus {
+	background: #000;
+	color: #fff;
+}
+
+/* Sub Nav ---*/
+#ja-subnav {
+	font-size: 92%;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	margin-top: -5px;
+}
+
+#ja-subnav ul { padding: 5px; background: #000; }
+
+#ja-subnav li { margin: 0 2px; padding: 0; }
+
+#ja-subnav li.first-item { }
+
+#ja-subnav ul li a { color: #fff; display: block; padding: 3px 8px 2px; }
+
+#ja-subnav ul li a:hover { color: #fff; background: #2a2a2a; }
+
+#ja-subnav ul li.active a.active,
+#ja-subnav ul li.active a.active:hover,
+#ja-subnav ul li.active a.active:active,
+#ja-subnav ul li.active a.active:focus { background: #f0f0f0; color: #000; }
+
+#ja-subnav ul.active li a { }
+
+#ja-subnav ul.active li a:hover { }
+
+#ja-subnav ul li.empty { visibility: hidden; }
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav ul li ul {
+	background: #fff;
+	border: 1px solid #000;
+	top: auto !important;
+}
+
+#ja-subnav ul ul li:hover ul,
+#ja-subnav ul ul li.hover ul {
+	margin: -1em 0 0 12em !important;
+}
+
+#ja-subnav ul li ul li { border-top: 1px solid #ccc; }
+
+#ja-subnav ul li ul li:first-child { border: 0; }
+
+#ja-subnav ul li ul li a {
+	color: #000;
+	font-family: Arial, sans-serif;
+	text-transform: none;
+}
+
+#ja-subnav ul li ul li.hover > a, 
+#ja-subnav ul li ul a:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+#ja-subnav ul li ul li.active {}
+
+#ja-subnav ul li ul li.active a.active,
+#ja-subnav ul li ul li.active a.active:hover,
+#ja-subnav ul li ul li.active a.active:active,
+#ja-subnav ul li ul li.active a.active:focus { background-color: #000; color: #fff; }
+
+/* Sub Nav (lv3) ---*/
+#ja-subnav ul li.hover ul ul { display: none; top: auto; }
+
+#ja-subnav ul ul li.hover ul, #ja-subnav ul ul li:hover ul {
+	display: block;
+	height: auto;
+	left: auto;
+	margin: -1em 0 0 12em;
+}
+
+#ja-subnav ul li li.haschild a.haschild span.menu-title {
+	display: block;
+}

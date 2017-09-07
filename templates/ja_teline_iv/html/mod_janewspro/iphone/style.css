@@ -1,0 +1,196 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+.ja-zinwrap {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-top: 0;
+	margin: 2px;
+}
+
+.ja-zin { border-top: 5px solid #000; }
+
+.ja-zin .items-row { margin: 0; padding: 0; background: none; }
+
+.ja-zin .ja-box .ja-box-inner {
+	margin: 12px 0;
+	padding: 0 12px;
+	background: url(../../../images/dot-2.gif) repeat-y 69% top;
+}
+
+.ja-zin .ja-box-first .ja-box-inner { border-top: 0; }
+
+.ja-zin .col-last .ja-box-inner { border-right: 0; }
+
+/* HEADING
+--------------------------------------------- */
+/* Section --- */
+.ja-zin .ja-zinsec { padding: 18px 0 0; position: relative; }
+
+.ja-zin .items-row:hover .ja-zinsec {}
+
+.ja-zin .items-row:hover .ja-zinsec a {}
+
+.ja-zin .ja-zinsec h2 {
+	margin: 0 0 4px !important;
+	padding: 0 !important;
+	text-transform: uppercase;
+	font: bold 175%/1 Arial, sans-serif;
+	background: url(../../../images/stripe-bg.png) repeat top;
+	letter-spacing: -1px;
+	text-indent: 5px;
+}
+
+.ja-zin .ja-zinsec h2 a {
+	color: #000;
+	background: #fff;
+	padding: 0 12px 0 4px;
+	display: inline-block;
+}
+
+/* Category --- */
+.ja-zin .ja-zincat h3 {
+	margin: 0 0 2px !important;
+	padding: 0 12px 0 0 !important;
+	font: normal 85%/normal Arial, sans-serif;
+	text-transform: uppercase;
+	float: left;
+	background: url(../../../images/arrow-3.png) no-repeat right center;
+}
+
+.ja-zin .ja-zincat h3 a { color: #999; }
+
+/* News Title --- */
+.ja-zin h4.ja-zintitle { margin: 0 12px 0 0 !important; padding: 0 !important; font-size: 125%; }
+
+/* CONTENT
+--------------------------------------------- */
+.ja-zin .ja-zincontent {}
+
+.ja-zin .ja-zincontent p { margin: 5px 12px !important; }
+.ja-zin .ja-zincontent p.readmore { margin: 0 !important; }
+
+/* Image ---*/
+.ja-zin .ja-zincontent img { margin: 3px 12px 5px 0; border: 1px solid #ddd; }
+
+/* Meta ---*/
+.ja-zin p.ja-zinmeta {
+	color: #999;
+	line-height: normal;
+	clear: none;
+	margin: 0 !important;
+	padding-top: 3px;
+	font-size: 92%;
+}
+
+/* SUBCATS SELECTION
+----------------------------------------------*/
+.ja-zin .ja-cats-slide-mainwrap {
+	padding-right: 50px;
+	background: url(../../../images/dot-1.gif) repeat-x bottom;
+}
+
+.ja-zin .subcats-selection-wrap {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.ja-zin .subcats-selection {
+	position: relative;
+	float: left;	
+	height: 30px;
+}
+
+.ja-zin .subcats-selection li { padding: 0 5px; }
+
+.ja-zin .subcats-selection li a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #999;
+	font: 92%/30px Arial, sans-serif;
+	text-transform: uppercase;
+	padding: 0 3px;
+}
+
+.ja-zin .subcats-selection li a:hover {
+	background: url(../../../images/arrow-up-line.gif) no-repeat center bottom;
+	color: #000;
+}
+
+.ja-zin .subcats-selection li.active a {
+	background: url(../../../images/arrow-up-line.gif) no-repeat center bottom;
+	color: #000;
+}
+
+.ja-zin .subcats-selection li a.subcat-more { display: none; }
+
+.ja-zin .subcats-selection li a.subcat-more span {
+	font: 9px/1 Arial, sans-serif;
+	background: url(../../../images/arrow-3.png) no-repeat right #666;
+	color: #333;
+	width: 16px;
+	height: 12px;
+	text-indent: -1000em;
+	display: block;
+	margin-top: 9px;
+}
+
+.ja-zin .subcats-selection li a.subcat-more:hover span { background-color: #000; color: #fff; }
+
+.ja-zin .subcats-selection li.active a.subcat-more {}
+
+.ja-zin .ja-cats-slide-mainwrap {
+	position: relative; 
+	overflow: hidden;
+	clear: both;
+}
+
+.ja-zin .ja-articles-mainwrap { position: relative; min-height: 160px; }
+
+.ja-zin .ja-articles { position: absolute; width: 100%; }
+
+/* Control Buttons */
+.ja-zin .ja-newspro-control {
+	width: 34px;
+	height: 20px;
+	position: absolute;
+	bottom: 2px;
+	right: 6px;
+}
+
+.ja-zin .ja-newspro-control a {
+	display: block;
+	float: left;
+	width: 14px;
+	height: 14px;
+	text-indent: -1000em;
+	background: url(../../../images/back-btn.png) no-repeat center #f0f0f0;
+	border: 1px solid #ccc;
+}
+
+.ja-zin .ja-newspro-control a.ja-newspro-control-next {
+	float: right;
+	background: url(../../../images/next-btn.png) no-repeat center #f0f0f0;
+}
+
+.ja-zin .ja-newspro-control a:hover,
+.ja-zin .ja-newspro-control a:active,
+.ja-zin .ja-newspro-control a:focus {
+	background-color: #000;
+	border: 1px solid #000;
+}
+
+/* MISC.
+------------------------------------------------*/
+.ja-zin p.readmore { float: none; }

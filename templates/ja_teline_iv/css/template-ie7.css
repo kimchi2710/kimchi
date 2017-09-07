@@ -1,0 +1,111 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+ 
+ 
+br.clearfix {
+	overflow: hidden !important;
+	height: 0 !important;
+	line-height: 0;
+}
+
+.ja-day { width: 115px; }
+
+#ja-navhelper-top .ja-breadcrums { display: inline; }
+
+#ja-navhelper-top { margin-top: 12px; }
+
+.inputbox { margin-right: 5px; }
+
+.subscribe-wrap .inputtext {
+	padding: 3px 7px;
+}
+
+.ja-zintitle,
+.ja-zinintro {
+	overflow: hidden;
+}
+
+.ja-zinfp-featured-wrap {
+	max-height: 524px !important;
+}
+
+.cols-4 .item {
+    width: 24.9% !important;
+}
+
+.ja-megamenu div.group ul.megamenu { margin-top: 0; }
+
+div.itemCommentsForm form input#submitCommentButton {
+	display: inline-block;
+}
+
+button[type=button] {
+	margin-right: 5px;
+}
+
+.janews-tool-tip .janews-tool-title,
+.janews-tool-tip .janews-tool-text {
+	width: 270px;
+}
+
+.ja-zinfp-normal .ja-zincontent-img img {
+	width: 60px;
+}
+
+.ja-zinfp-normal .ja-zincontent-img {
+   width: 66px;
+}
+
+#ja-topnav {
+	width: 152px;
+}
+
+#ja-topmegamenu {
+	position: relative;
+	z-index: 12;
+}
+
+.ja-megamenu .group-title { margin-bottom:8px }
+
+.contact-miscinfo .jicons-icons {
+	display:  inline;
+	margin-top: 15px;
+}
+
+.contact .current .tabs {
+	float: left;
+}
+
+#jasdl-mainnav a,
+#ja-mainnav li.home a.home { padding-bottom: 5px; }
+
+#ja-splitmenu a,
+#ja-splitmenu li.home a.home { padding-bottom: 6px; }
+
+#jasdl-mainnav,
+#ja-splitmenu { 
+   zoom:1;
+}
+
+/* Mega menu ---*/
+
+#ja-megamenu li.home a.home { padding-bottom: 3px; }
+
+/* Com User ---*/
+.registration button.validate {
+	padding: 0 5px;
+	margin-bottom: -5px;	
+}
+
+#ja-wrapper .ja-tab-subcontent div.ja-bulletin-wrap ul div.box-right {
+	padding-left: 10px !important;
+}

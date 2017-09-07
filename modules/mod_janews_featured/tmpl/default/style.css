@@ -1,0 +1,196 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA News Featured Module for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites: http://www.joomlart.com - http://www.joomlancers.com
+ * ------------------------------------------------------------------------
+ */
+
+.ja-zinfp-wrap {
+	
+}
+
+.ja-zinfp {
+	
+}
+
+.ja-zinfp {
+	
+}
+
+.ja-zinfp-main-wrap {
+	
+}
+
+.ja-zinfp-main {
+	
+}
+
+/* Featured News ----*/
+.ja-zinfp-featured-wrap {
+	float: left;
+	width: 55%;
+}
+
+.ja-zinfp-featured {
+	position: relative;
+}
+
+.ja-zinfp-featured-border {
+	height: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	margin-right: 15px;
+	position: relative;
+}
+
+.ja-zinfp-featured h2.ja-zintitle {
+	margin: 0 0 8px;
+}
+
+.ja-zinfp-featured h2.ja-zintitle a {
+	display: block;
+}
+
+.ja-zinfp-featured-border:hover h2.ja-zintitle a,.ja-zinfp-featured h2.ja-zintitle a:hover,.ja-zinfp-featured h2.ja-zintitle a:active,.ja-zinfp-featured h2.ja-zintitle a:focus
+	{
+	
+}
+
+.ja-zinfp-featured .ja-zincontent-wrap {
+	position: absolute;
+}
+
+.ja-zinfp-featured .ja-zincontent {
+	margin: 0;
+	padding: 0 0 8px;
+}
+
+.ja-zinfp-featured .ja-zincontent-img {
+	margin: 0 0 8px;
+	overflow: hidden;
+}
+
+.ja-zinfp-featured-border:hover .ja-zincontent-img {
+	
+}
+
+.ja-zinfp-featured .ja-zincontent-img img {
+	float: none !important;
+	margin: 0;
+}
+
+.ja-zinfp-featured-border:hover .ja-zincontent-img img {
+	
+}
+
+.ja-zinfp-featured .ja-zincontent p {
+	margin: 0 0 8px;
+	padding: 2px 0;
+}
+
+/* Normal News ----*/
+.ja-zinfp-normal-wrap {
+	float: right;
+	width: 44.9%;
+}
+
+.ja-zinfp-normal {
+	
+}
+
+.ja-zinfp-normal .ja-zincontent-wrap {
+	margin: 0;
+}
+
+.ja-zinfp-normal .ja-zincontent {
+	margin: 1px 0;
+	padding: 0;
+	position: relative;
+}
+
+.ja-zinfp-normal .ja-zincontent:hover {
+	
+}
+
+.ja-zinfp-normal .ja-zincontent-img {
+	float: left;
+	margin-right: 8px;
+}
+
+.ja-zinfp-normal .ja-zincontent-img img {
+	margin: 0 !important;
+}
+
+.ja-zinfp-normal .ja-zincontent:hover .ja-zincontent-img {
+	
+}
+
+.ja-zinfp-normal .ja-zincontent:hover .ja-zincontent-img img {
+	
+}
+
+.ja-zinfp-normal h4.ja-zintitle {
+	margin: 0;
+}
+
+.ja-zinfp-normal h4.ja-zintitle a {
+	display: block;
+}
+
+.ja-zinfp-normal .ja-zincontent:hover a {
+	
+}
+
+.ja-zinfp-normal h4.ja-zintitle a:hover,.ja-zinfp-normal h4.ja-zintitle a:active,.ja-zinfp-normal h4.ja-zintitle a:focus
+	{
+	
+}
+
+.ja-zinfp-normal .ja-zinintro {
+	
+}
+
+.ja-zinfp-normal .ja-zinintro p {
+	margin: 0;
+}
+
+/* Actions */
+.ja-zinfp-links-actions {
+	bottom: 0;
+	padding: 0;
+	position: absolute;
+}
+
+.ja-zinfp-links-actions a,.ja-zinfp-links-actions a:focus {
+	display: block;
+	float: right;
+}
+
+.ja-zinfp-links-actions a:hover,.ja-zinfp-links-actions a:active {
+	
+}
+
+a.ja-zinfp-links-actions-prev span {
+	
+}
+
+a.ja-zinfp-links-actions-next span {
+	
+}
+
+.ja-zinfp-links-actions span.next {
+	display: none;
+}
+
+.ja-zinfp-links-actions .box-counter {
+	display: block;
+	float: left;
+}
+
+.ja-zinfp-featured .show {
+	position: relative;
+}

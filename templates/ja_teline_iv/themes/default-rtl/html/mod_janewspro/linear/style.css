@@ -1,0 +1,37 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+.linear .ja-zin .ja-zincontent { float: right; }
+ 
+.linear .ja-zin .ja-zinlinks { float: left; }
+
+.linear .ja-zin .ja-box .ja-box-inner { background-position: 33% top; }
+
+.linear .ja-zin .ja-zincontent img.left { float: right; margin: 3px 0 5px 12px;}
+
+.linear .ja-zin .ja-zincontent img.right { float: left; margin: 3px 12px 5px 0;}
+
+.linear .ja-zin .subcats-selection { float: right; }
+
+.linear .ja-zin .subcats-selection li { float: right; }
+
+.linear .ja-zin .ja-zinlinks ul li {
+	background: url(../../../images/arrow.png) no-repeat 99% 3px;
+	padding: 0 10px 0 0;
+}
+
+.linear .ja-zin .ja-cats-slide-mainwrap { padding-left: 50px; padding-right: 8px; }
+
+.linear .ja-zin .ja-newspro-control { right: auto; left: 6px; }
+
+.linear .ja-zin .ja-newspro-control a {
+	text-decoration: none !important;
+}

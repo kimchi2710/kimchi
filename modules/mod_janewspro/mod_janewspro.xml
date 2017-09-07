@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension 
+	type="module" 
+	version="2.5" 
+	client="site"
+	method="upgrade">
+	
+	<name>JA News Pro! Module</name>
+	<author>JoomlArt.com</author>
+	<creationDate>February 2012</creationDate>
+	<copyright>J.O.O.M Solutions Co., Ltd.</copyright>
+	<license>GNU/GPL V2 for PHP files. Read Terms of Service for details.</license>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>www.joomlart.com</authorUrl>
+	<version>2.5.0</version>
+	<license>GNU/GPL V2 for PHP files. Read Terms of Service for details</license>	
+	<description>
+		<![CDATA[
+			<h1>Introduce</h1>
+			<span style="color: #008000;">JA NEWS PRO Module comes with rich backend and advanced features for easy configuration.</strong></span>
+			<p><span style="color: #ff6600;"><strong>Features:</strong></span></p>
+			It lets you manage news on frontpage more professionally.
+			<img border="0" alt="JA Highslide plugin" src="http://asset.joomlart.com/images/stories/extensions/joomla/jaec_highslide.png?javer=1109130907" style="float: left">
+			<p><strong><span style="color: #ff0000;">Important Instructions:</span></strong></p>
+			JA NEWSPRO support K2 and Joomla Content and User setting in front end
+			<p><strong><span style="color: #ff0000;">Usage Instructions:</span><br /></strong></p>
+			JA News Pro module easy configuration with K2 component and Joomla Content<br />
+			JA News Pro module support 4 theme and allow user front end config content which is displayed in module ( User Setting Tool )<br />
+			JA News Pro module compatiable with JA Teline IV template<br />
+			<p><strong><span style="color: #ff0000;">Upgrade Methods:</span><br /></strong></p>
+				<ol><li>Standard joomla uninstall / reinstall method. Module supports upgrade method. </li>
+				<li>You can install new version directly over this version. Uninstallation is not required. </li>
+				<li>Backup any customized file before upgrading, your settings would be saved though.</li></ol>
+			<p><span style="color: #008000;"><strong>Links:</strong></span></p>
+			<ul><li><a target="_blank" href="http://update.joomlart.com/#products.list/module_16/JA%20News%20Pro%20module%20for%20Joomla%201.7/">Updates &amp; Versions</a></li></ul>
+			<p>Copyright 2004 - 2012 <a href="http://www.joomlart.com/" title="Visit Joomlart.com!">JoomlArt.com</a>.</p>
+		]]>
+	</description>
+	<languages>
+			<language tag="en-GB">en-GB.mod_janewspro.ini</language>
+	</languages>
+	<files>
+		<filename module="mod_janewspro">mod_janewspro.php</filename>
+		<filename module="mod_janewspro">index.html</filename>
+		<folder module="mod_janewspro">assets</folder>
+		<folder module="mod_janewspro">admin</folder>
+		<folder module="mod_janewspro">profiles</folder>
+		<folder module="mod_janewspro">elements</folder>
+		<folder module="mod_janewspro">helpers</folder>
+		<folder module="mod_janewspro">tmpl</folder>
+	</files>
+	
+	<config>
+		<fields name="params" 
+			>
+			<fieldset name="basic" addfieldpath="/modules/mod_janewspro/elements">
+				
+				<field 
+					name="groupbysub" 
+					type="japaramhelper" 
+					function="@group" 
+					level="3">
+						<option for="groupbysubcat" value="1" hideRow="true">maxSubCats,subcols</option>		
+				</field>
+				<field 
+					name="moduleclass_sfx"
+					type="text" 
+					default="" 
+					label="MODULE_CLASS_SUFFIX" 
+					description="MODULE_CLASS_SUFFIX_DESC" />
+					
+				<field 
+					name="settingcontent" 
+					type="japaramhelper" 
+					default="" 
+					function="@title" 
+					label="CONTENT_SETTINGS" 
+					description="CONTENT_SETTINGS" level="2"/>	
+				<field 
+					name="groupsource" 
+					type="japaramhelper" 					
+					function="@group" level="3">											
+						<option for="source" value="JANewsHelper" hideRow="true">catsid,JPlugins</option>
+						<option for="source" value="JAK2Helper" hideRow="true">k2catsid,getChildren,K2Plugins</option>			
+				</field>
+				
+				<field 
+					name="source" 
+					type="radio" 
+					default="JANewsHelper" 
+					label="FROM_SOURCE"
+					description="FROM_SOURCE_DESC">
+						<option value="JAK2Helper">K2</option>
+						<option value="JANewsHelper">JOOMLA_CONTENT</option>						
+				</field>
+				<field 
+					name="getChildren" 
+					type="radio" 
+					default="1" 
+					label="FETCH_ITEMS" 
+					description="FETCH_ITEMS_DESC">
+						<option value="1">Yes</option>
+						<option value="0">No</option>				
+				</field>
+				<field 
+					name="catsid" 
+					type="japaramhelper2"
+					function="@categories"
+					extension="com_content"
+					default=""
+					level="3"
+					label="SELECT_CATEGORIES" 
+					multiple="true"
+					size="5"
+					description="SELECT_CATEGORIES_DESC" />					
+				
+				<field 
+					name="k2catsid" 
+					type="categoryk2" 
+					subtype="getCategory"
+					default="" 
+					level="3"
+					label="SELECT_K2_CATEGORIES" 
+					description="SELECT_K2_CATEGORIES_DESC" />
+												
+				<field 
+					name="groupbysubcat" 
+					type="radio" 
+					default="0" 
+					level="3"
+					label="GROUP_BY_SUB_CATEGORY" 
+					description="GROUP_BY_SUB_CATEGORY">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>	
+				
+				<field 
+					name="maxSubCats" 
+					type="text" 
+					default="-1" 
+					label="MAXIMUM_SUBCATEGORIES" 
+					description="MAXIMUM_SUBCATEGORIES_DESC" />
+				
+				<field 
+					name="featured" 
+					type="list"
+					default="hide" 
+					label="DISPLAY_FEATURED_ARTICLES" 
+					description="DISPLAY_FEATURED_ARTICLES_DESC">
+						<option value="show">SHOW</option>
+						<option value="only">SHOW_ONLY_FEATURED</option>
+						<option value="hide">HIDE</option>
+				</field>
+				
+				<field 
+					name="ordering" 
+					type="list" 
+					default="ordering" 
+					label="ARTICLES_SORTED_BY" 
+					description="ARTICLES_SORTED_BY_DESC">
+						<option value="ordering">Ordering</option>
+						<option value="title">Title Alphabetical</option>
+						<option value="hits">Most popular</option>
+						<option value="modified">Latest Modified</option>
+						<option value="created">Date</option>
+						<option value="rand">Random ordering</option>
+				</field>	
+
+				<field 
+					name="sort_order" 
+					type="list" 
+					default="DESC" 
+					label="ASCENDING_OR_DESCENDING" 
+					description="ASCENDING_OR_DESCENDING_DESC">
+						<option value="ASC">ASC</option>
+						<option value="DESC">DESC</option>
+				</field>
+				<field 
+					name="timerange" 
+					type="list" 
+					default="" 
+					label="TIME_RANGE" 
+					description="TIME_RANGE_DESC">
+						<option value="">ALL_TIME</option>
+						<option value="1">DAY_1</option>
+						<option value="3">DAYS_3</option>
+						<option value="7">WEEK_1</option>
+						<option value="15">WEEKS_2</option>
+						<option value="30">MONTH_1</option>
+						<option value="180">MONTHS_6</option>
+				</field>
+					
+				<field 
+					name="settingprofile" 
+					type="japaramhelper" 
+					default="" 
+					function="@title" 
+					label="PROFILE_SETTINGS" 
+					description="PROFILE_SETTINGS" level="2"/>	
+					
+				<field 
+					name="profile" 
+					type="japaramhelper2"
+					function="@getProfile"		
+					default="default"
+					label="PROFILE_SELECTION" 
+					description="PROFILE_SELECTION_DESC"/>
+					
+				
+			</fieldset>
+			<fieldset name="advanced">
+				<field 
+					name="JPlugins"
+					type="radio" 
+					default="1"
+					label="ENABLE_JOOMLA_CONTENT_PLUGINS"
+					description="ENABLE_JOOMLA_CONTENT_PLUGINS_DESC">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+						
+				</field>
+				<field 
+					name="K2Plugins" 
+					type="radio" 
+					default="1" 
+					label="ENABLE_K2_PLUGINS" 
+					description="ENABLE_K2_PLUGINS_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field 
+					name="colors" 
+					type="textarea" 
+					cols="30" 
+					rows="10" 
+					default="" 
+					label="COLORS" 
+					description="COLORS_DESC" />
+				<field 
+					name="jacache" 
+					type="list" 
+					default="1" 
+					label="CACHING" 
+					description="CACHING_DESC">
+					<option value="1">Enable Cache</option>
+					<option value="0">No caching</option>
+				</field>
+				<field 
+					name="jacache_time" 
+					type="text" 
+					default="900" 
+					filter="integer"
+					class="validate-numeric"
+					label="CACHE_TIME" 
+					description="CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

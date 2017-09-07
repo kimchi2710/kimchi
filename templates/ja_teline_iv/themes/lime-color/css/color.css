@@ -1,0 +1,129 @@
+/*
+# ------------------------------------------------------------------------
+# This is raw license
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-20010 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+# ------------------------------------------------------------------------
+*/
+
+/* GENERAL
+----------------------------------------------------*/
+/* template.css */
+a { color: #818800; }
+a:visited { color: #666; }
+
+h1.logo a { background-image: url(../images/logo.png); }
+#ja-footlogo a:hover, #ja-footlogo a:active, #ja-footlogo a:focus { background: #818800; }
+
+.ja-day:hover span.day { background-color: #818800; }
+#ja-search:hover .button, #ja-search:focus .button { background-color: #818800; }
+
+.items-leading { background-color: #fffae5; }
+
+/* NAVIGATION
+----------------------------------------------------*/
+/* menu/mega.css */
+.ja-megamenu { border-color: #818800; }
+
+.ja-megamenu ul.level0 li.active a.mega { background-color: #818800; }
+
+.ja-megamenu ul.level0 li.active .childcontent-inner {
+	background-image: url(../images/arrow-down.gif);
+	border-color: #818800;
+}
+.ja-megamenu ul.level1 li.mega a.mega { color: #818800; background: none; }
+
+/* menu/css.css */
+#ja-cssmenu { border-color: #818800; }
+
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus { background-color: #818800; }
+
+#ja-cssmenu li.active ul { background-color: #818800; border-color: #818800; }
+
+#ja-cssmenu li.active ul li { border-bottom-color: #979c2b; }
+
+#ja-cssmenu li.active ul li a { background: none; }
+
+#ja-cssmenu li.active ul a:hover,
+#ja-cssmenu li.active ul a:active,
+#ja-cssmenu li.active ul a:focus,
+#ja-cssmenu li.active ul li:hover,
+#ja-cssmenu li.active ul li.sfhover,
+#ja-cssmenu li.active ul li.havesubchildsfhover,
+#ja-cssmenu li.active ul li.havesubchild-activesfhover,
+#ja-cssmenu li.active ul ul li:hover,
+#ja-cssmenu li.active ul ul li.sfhover,
+#ja-cssmenu li.active ul ul li.havesubchildsfhover,
+#ja-cssmenu li.active ul ul li.havesubchild-activesfhover { background: #2a2a2a; }
+
+#ja-cssmenu li.active { background:none }
+#ja-cssmenu li.active:hover,
+#ja-cssmenu li.active:active,
+#ja-cssmenu li.active:focus {
+	background: #818800;
+}
+
+
+/* menu/split.css */
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus { background-color: #818800; }
+
+#ja-subnav { background-color: #818800; }
+
+/* menu/dropline.css */
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus { background-color: #818800; }
+
+#ja-subnav ul.active { background-color: #818800; overflow: hidden; }
+
+/* JA NEWS
+----------------------------------------------------*/
+/* Frontpage */
+.ja-zinfp-featured-border:hover h2.ja-zintitle a,
+.ja-zinfp-featured h2.ja-zintitle a:hover,
+.ja-zinfp-featured h2.ja-zintitle a:active,
+.ja-zinfp-featured h2.ja-zintitle a:focus { background-color: #818800; }
+
+.ja-zinfp-featured-border:hover .ja-zincontent-img { background-color: #818800; border-color: #818800; }
+.ja-zinfp-featured-border:hover .ja-zincontent-img img { border-color: #979c2b; }
+
+.ja-zinfp-normal .ja-zincontent:hover { background: #818800; }
+.ja-zinfp-normal .ja-zincontent:hover a { background: #818800; }
+
+/* Ja Newspro */
+.row1 {
+	background-color: #f0f0f0;
+}
+
+/* K2 */
+div.itemCommentsForm form input#submitCommentButton:hover {
+	background-color: #818800;
+	border-color: #818800;
+}
+
+/* MISC
+----------------------------------------------------*/
+/* typo.css */
+div.class-box:hover span { color: #818800; }
+
+/* ja_tabs */
+.teline_iv .container .ja-tabs-title-top ul.ja-tabs-title li.active { border-color: #818800; }
+
+/* User tool */
+a#ja-cpanel-toggle:hover, 
+a#ja-cpanel-toggle.open {
+	background-color: #818800;
+}
+
+/* ja_last_comment */
+.jac-lasmod-vote { color: #818800; }

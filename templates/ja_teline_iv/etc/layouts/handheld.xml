@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout body-class="bd-handheld">
+	<name>handheld</name>
+	<description>Layout handheld for Teline IV</description>
+	<blocks name="middle">
+		<block name="content-mass-top" style="raw">ja-news-mobile</block>
+	</blocks>
+</layout>

@@ -1,0 +1,454 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+/* ------------------- */
+/* -- template.css  -- */
+/* ------------------- */
+
+/* Meta ---*/
+
+/*Inline images ---*/
+
+/* Headings ---*/
+/* FORM
+--------------------------------------------------------- */
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+p.readmore a {
+	border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+}
+
+/* Meta ---*/
+
+/* MODULE STYLES
+--------------------------------------------------------- */
+/* HEADER
+--------------------------------------------------------- */
+/* NAVIGATION
+--------------------------------------------------------- */
+
+/* SLIDESHOW
+--------------------------------------------------------- */
+/* SPOTLIGHT
+--------------------------------------------------------- */
+
+/* FOOTER
+----------------------------------------------------------- */
+/* MISC
+----------------------------------------------------------- */
+/* News Tooltips ---*/
+.janews-tool-tip {
+	box-shadow: 0 0 10px rgba(0,0,0,.9);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.9);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.9);
+}
+
+
+/* Custome search form ---*/
+
+/* Small gallery ---*/
+/* Comment Button ---*/
+/* Tabs Text Shadow */
+
+/* MENU
+----------------------------------------------------------- */
+
+/* -------------------- */
+/* -- menu/split.css -- */
+/* -------------------- */
+
+/* Split menu ---*/
+
+/* ------------------ */
+/* -- menu/css.css -- */
+/* ------------------ */
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	box-shadow: 0 0 3px rgba(0,0,0,.75);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.75);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.75);
+}
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav ul li ul {
+	box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+	-moz-box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+	-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+}
+
+/* CSS Menu */
+
+/* 2nd level and above */
+#ja-cssmenu li ul {
+	box-shadow: 2px 5px 8px rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 5px 8px rgba(0,0,0,.5);
+	-webkit-box-shadow: 2px 5px 8px rgba(0,0,0,.5);
+}
+
+/* ----------------------- */
+/* -- menu/dropline.css -- */
+/* ----------------------- */
+
+/* Dropline Menu */
+
+#jasdl-mainnav a:hover,
+#jasdl-mainnav ul li.hover a {
+	box-shadow: 0 0 3px rgba(0,0,0,.75);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.75);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.75);
+}
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav ul li ul {
+	box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+	-moz-box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+	-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+}
+
+
+/* ------------------- */
+/* -- menu/mega.css -- */
+/* ------------------- */
+
+/* Mega Menu */
+
+.ja-megamenu ul.level0 li.over a.mega, ul.level0 li.haschild-over a.mega {
+	box-shadow: 0 0 3px rgba(0,0,0,.75);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.75);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.75);
+}
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner {
+	box-shadow: 2px 5px 8px rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 5px 8px rgba(0,0,0,.5);
+	-webkit-box-shadow: 2px 5px 8px rgba(0,0,0,.5);
+}
+
+/* ------------ */
+/* -- k2.css -- */
+/* ------------ */
+div.itemCommentsForm form input#submitCommentButton {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	-box-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+div.catItemReadMore a {
+	border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+}
+
+.ja-brief-history img {
+	box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+}
+
+
+/* User items */
+
+/* ------------------------- */
+/* -- ja_contentslide.css -- */
+/* ------------------------- */
+
+/* JA content slide */
+
+/* ------------------------------ */
+/* -- mod_jacontentslider2.css -- */
+/* ------------------------------ */
+
+/* Tooltips ---*/
+/* Button control ---*/
+/* -------------------------- */
+/* -------------- */
+/* -- typo.css -- */
+/* -------------- */
+
+.subscribe-wrap .inputtext {
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2) inset;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2) inset;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .2) inset;
+}
+
+
+/* TYPO PAGE LAYOUT
+-------------------------------------------------------------*/
+
+/* Block Actions ---*/
+
+#ja-typo .typo-wrap a.typo-view-details {
+	opacity: .85;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+/* BUBBLES
+-----------------------------------------------------------------*/
+
+.ja-typo-bubblect {
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Common Style for Rounded Bubbles --- */
+.bubble-rounded .ja-typo-bubblect {
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+}
+
+/* MESSAGE BOXES AND LEGENDS STYLE
+-----------------------------------------------------------------*/
+
+/* Rounded Box*/
+.box-rounded {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Rounded Box*/
+.legend-rounded {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* BUTTONS
+--------------------------------------------------*/
+
+/* Common Buttons Style ---*/
+a.ja-typo-btn {
+	text-shadow: 0 1px 2px rgba(255,255,255,.8);
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Common style for Dark Buttons --- */
+
+a.btn-blue,
+a.btn-red,
+a.btn-green,
+a.btn-orange,
+a.btn-black {
+	text-shadow: 0 1px 2px rgba(0,0,0,.8);
+}
+
+/* Common style for Rounded Buttons --- */
+.btn-rounded-icn, .btn-rounded-big, .btn-rounded-sm,
+.btn-rounded-icn span, .btn-rounded-big span, .btn-rounded-sm span {
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px; 
+}
+
+.btn-rounded-sm, .btn-rounded-sm span {
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px; 
+}
+
+/* TAGS
+--------------------------------------------------*/
+span.ja-typo-tag {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+span.tag {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px; 
+}
+
+span.tag-grey {	text-shadow: 0 -1px 0 rgba(255,255,255,.8); }
+
+/* Common style for Rounded Tags --- */
+span.tag-rounded {
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px; 
+}
+
+/* TYPO HEAD
+-------------------------------------------------------------*/
+
+ul#ja-typo-nav li.active a {
+	text-shadow: 0 -1px 1px rgba(0,0,0,.8);
+}
+
+.ja-typo-blockswrap h2.ja-typo-title span {
+	text-shadow: 0 -1px 1px rgba(255,255,255,.8);
+}
+
+/* BUBBLES
+-----------------------------------------------------------------*/
+
+.ja-typo-bubblect {
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+.ja-typo-bubble-small .bubble-small-inner {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.ja-typo-bubble-small .bubble-small-inner span.avatar {
+	box-shadow: 0 0 3px rgba(0, 0, 0, .3)
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .3)
+}
+
+div.ja-typo-hilite img {
+	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+div.class-box-wrap1 {
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+}
+
+div.class-box .image {
+	box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+}
+
+/* JA COMMENT
+--------------------------------------------------*/
+
+/* ------------------------------------------------------- */
+/* -- html/com_jacomment/themes/teline_iv/css/style.css -- */
+/* ------------------------------------------------------- */
+
+#jac-wrapper .instruction {
+	-moz-box-shadow: 1px 1px 2px #ccc;
+	-webkit-box-shadow: 1px 1px 2px #ccc;
+	box-shadow: 1px 1px 2px #ccc;
+}
+
+#jac-wrapper .comment-menu .menu-content ul {
+	-moz-box-shadow: 1px 2px 3px #ccc;
+	-webkit-box-shadow: 1px 2px 3px #ccc;
+	box-shadow: 1px 2px 3px #ccc;
+}
+
+#jac-msg-succesfull {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#jac-loader {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* JA NEWS
+--------------------------------------------------*/
+
+/* ------------------------------------------------------- */
+/* -- html/mod_janewspro/default/style.css -- */
+/* ------------------------------------------------------- */
+
+a.ja-usersetting-loadform:hover,
+a.ja-usersetting-loadform:active,
+a.ja-usersetting-loadform:focus {
+	box-shadow: 0 0 10px rgba(0,0,0,.9);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.9);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.9);
+}
+
+
+.ja-usersetting-options {
+	box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+	-moz-box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+	-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,.9);
+}
+
+.options-content li input {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: inset 0 0 3px rgba(0,0,0,.9);
+	-moz-box-shadow: inset 0 0 3px rgba(0,0,0,.9);
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.9);
+}
+
+.ja-usersetting-actions .button:hover,
+.ja-usersetting-actions .button:focus {
+	box-shadow: inset 0 0 3px rgba(0,0,0,.9);
+	-moz-box-shadow: inset 0 0 3px rgba(0,0,0,.9);
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.9);
+}
+
+/* ------------------------------------------------------- */
+/* -- html/mod_janewspro/linear/style.css -- */
+/* ------------------------------------------------------- */
+
+.ja-zin .subcats-selection li a.subcat-more span {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+/* ------------------------------------------------------- */
+/* -- typo.css -- */
+/* ------------------------------------------------------- */
+
+div.class-box div.title {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/* ------------------------------------------------------- */
+/* -- template.css -- */
+/* ------------------------------------------------------- */
+
+#ja-footlogo a {
+	text-shadow: 0 -1px 1px rgba(0,0,0,.75);
+}
+

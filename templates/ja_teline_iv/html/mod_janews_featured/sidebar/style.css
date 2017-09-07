@@ -1,0 +1,55 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Teline IV
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+.sidebar .jazin-contentwrap { border-bottom: 1px solid #fff; }
+
+.sidebar .jazin-image-wrap { margin-bottom: 5px; }
+
+.sidebar .jazin-contentwrap img { padding: 0; }
+
+.sidebar .jazin-content { position: relative; overflow: hidden }
+
+.sidebar .jazin-content a.jazin-content-inner p { margin-bottom: 0; }
+
+.sidebar .jazin-content a.jazin-content-inner {
+	text-decoration: none !important;
+}
+
+.sidebar .jazin-content span.jazin-content-text {
+	background: url(trans-w.png) no-repeat;
+	border-top: 1px solid #ddd;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	line-height: 1.15;
+}
+
+.sidebar span.jazin-title {
+	color: #333;
+	display: block;
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0 !important;
+	padding: 5px !important;
+}
+
+.sidebar a.jazin-content-inner p { color: #ccc; display: none; padding: 5px; }
+
+.sidebar a.jazin-content-inner:hover span.jazin-content-text {
+	background-image: url(trans-d.png);
+	border-top: 1px solid #000;
+	height: auto;
+}
+
+.sidebar a.jazin-content-inner:hover span.jazin-title { color:#ffffff;}
+
+.sidebar a.jazin-content-inner:hover p { display: block; }

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade">
+
+	<name>JA_Teline_IV</name>
+	<version>2.5.0</version>
+	<creationDate>February 2012</creationDate>
+	<author>JoomlArt.com</author>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>http://www.joomlart.com</authorUrl>
+	<copyright>J.O.O.M. Solutions Ltd.</copyright>
+	<license>GNU/GPL version 2</license>
+	<description><![CDATA[<p>JA Teline IV has been updated for use with Joomla 2.5.x!</p>
+
+<p>Latest of the Teline Series of News Templates, new users install quickstart to use a reference, that would help</p>
+
+<p><strong>Resources :</strong></p>
+<p>| 
+<a href='http://www.joomlart.com/joomla/templates/ja-teline-iv' title='Home' target='_blank' > Template Home Page</a> | 
+<a href='http://www.joomlart.com/demo/#joomla25-templates.joomlart.com/ja_teline_iv' title='Demo' target='_blank' > Demo</a> | 
+<a href='http://www.joomlart.com/forums/forumdisplay.php?233' title='forum' target='_blank' >Forum</a> | </p>
+<p>|
+<a href='http://wiki.joomlart.com/wiki/JA_T3_Framework_2/Overview' title='T3 wiki' target='_blank' >T3 Framework Wiki</a> | 
+<a href='http://update.joomlart.com' title='Updates' target='_blank' >Updates</a> | 
+<a href='http://pm.joomlart.com/browse/JATCTELINEIVJ16' title='Changelog' target='_blank' >JIRA</a> | 
+<a href='http://www.joomlart.com/forums/downloads.php?do=cat&id=381' title='Downloads' target='_blank' >Downloads</a> | 
+</p>"]]></description>
+	<engine>t3</engine>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>info.xml</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<folder>etc</folder>
+		<folder>themes</folder>
+		<folder>info</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>blocks</folder>
+		<folder>html</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.tpl_ja_teline_iv.ini</language>
+	</languages>
+	<administration>
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.tpl_ja_teline_iv.ini</language>
+		</languages>
+    </administration>
+
+	<positions>
+		<position>hornav</position>
+		<position>breadcrumbs</position>
+		<position>search</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>right</position>
+		<position>right1</position>
+		<position>right2</position>
+		<position>top</position>
+		<position>headlines</position>
+		<position>header-r</position>
+		<position>mega</position>
+		<position>mega-adv1</position>
+		<position>mega-item</position>
+		<position>mega1</position>
+		<position>mega2</position>
+		<position>mega5</position>
+		<position>mega6</position>
+		<position>mega3</position>
+		<position>mega4</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>content-mass-bot</position>
+		<position>col-mass-bot</position>
+		<position>col-mass-top</position>
+		<position>col-mass1</position>
+		<position>col-mass1</position>
+		<position>ja-news-1</position>
+		<position>ja-news-2</position>
+		<position>ja-news-3</position>
+		<position>ja-news-mobile</position>
+		<position>sl1-l</position>
+		<position>sl1-r</position> 
+		<position>ja-tabs1</position>
+		<position>ja-tabs2</position>
+		<position>menulist</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>debug</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/jat3/jat3/core/element">
+		      
+		</fields>
+    </config>
+</extension>

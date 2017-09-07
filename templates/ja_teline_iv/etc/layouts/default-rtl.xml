@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout name="desktop">
+	<!--Extra css load for this layout-->
+	<stylesheets>
+	</stylesheets>
+	<blocks name="top" style="xhtml">
+		<block name="absolute" type="modules" style="raw">absolute</block>
+		<block name="header" type="header"></block>
+		<block name="topmegamenu" type="topmega"></block>
+		<block name="mainnav" type="mainnav"></block>
+		<block name="topbar" type="topbar"></block>
+		<block name="cpanel" type="usertools/cpanel"></block>
+		<block name="slideshow" type="modules" style="raw">slideshow</block>
+		<block name="topsl1" type="spotlight" special="right" specialwidth="66">sl1-r,sl1-l</block>
+		<block name="topsl2" type="spotlight">user1,user2,user3,user4,user5</block>
+	</blocks>
+	<blocks name="middle" main-inner="1" colwidth="17">
+		<block name="content-top" style="raw">content-top</block>
+		<block name="content-bottom" style="raw">content-bot</block>
+		<block name="content-mass-top" style="raw" type="tabs">ja-news-1,ja-news-2,ja-news-3</block>
+		<block name="content-mass-bottom">content-mass-bot</block>
+		<block name="left-mass-top">col-mass-top</block>
+		<block name="left-mass-bottom">col-mass-bot</block>
+		<block name="right1">left</block>
+		<block name="left2">right1</block>
+		<block name="left1">right2</block>
+	</blocks>
+	<blocks name="bottom" style="xhtml">
+		<block name="botsl1" type="spotlight">user6,user7,user8,user9,user10</block>
+		<block name="botsl2" type="spotlight" special="right" specialwidth="66">user12,user11</block>
+		<block name="footer" type="footer" main-inner="1"></block>
+	</blocks>
+</layout> 

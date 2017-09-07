@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<form>
+	<fields 
+		name="params" 
+		addfieldpath="/modules/mod_janews_featured/elements">
+		<fieldset 
+			name="basic">		
+				<field 
+					name="animType" 
+					type="list" 
+					default="animNewsMoveHor" 
+					label="EFFECT" 
+					description="EFFECT_DESC">
+						<option value="animNewsMoveHor">Move Horizontal</option>
+						<option value="animNewsMoveVir">Move Vertical</option>
+						<option value="animNewsFade">Move Fade</option>
+				</field>	
+				
+				<field 
+					name="duration" 
+					type="text" 
+					default="400" 
+					label="ANIMATION_DURATION" 
+					description="ANIMATION_DURATION_DESC" />
+					
+				<field 
+					name="autoplay" 
+					type="list" 
+					default="1" 
+					label="AUTO_PLAY" 
+					description="AUTO_PLAY_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+
+				<field 
+					name="autoplay_duration" 
+					type="text" 
+					default="4000" 
+					label="AUTOPLAY_DURATION" 
+					description="AUTOPLAY_DURATION_DESC" />				
+		</fieldset>
+	</fields>
+</form>

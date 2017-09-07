@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<extprofile>
+	<params name="japarams">				
+	  	<param name="headlinelang" type="text" default="TOP STORIES NOW" label="HEADLINE TEXT" description="HEADLINE TEXT DESC" />
+		<param name="showhltools" type="radio" default="1" label="SHOW HEADLINE TOOLS" description="SHOW HEADLINE TOOLS DESC">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>		
+		<param name="showhltitle" type="radio" default="1" label="SHOW HEADLINE ARTICLE TITLE" description="SHOW HEADLINE ARTICLE TITLE DESC">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>				
+		<param name="headlineheight" type="text" default="220" label="HEADLINE FIXED HEIGHT" description="HEADLINE FIXED HEIGHT DESC" />
+		<param name="autoroll" type="radio" default="1" label="AUTO ROLL" description="AUTO ROLL DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="delaytime" type="text" default="5" label="ROLLING DELAY TIME" description="ROLLING DELAY TIME DESC" />
+		
+	</params>		
+</extprofile>

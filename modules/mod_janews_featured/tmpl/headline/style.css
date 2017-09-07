@@ -1,0 +1,60 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA News Featured Module for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites: http://www.joomlart.com - http://www.joomlancers.com
+ * ------------------------------------------------------------------------
+ */
+
+/* LAYOUT: HEADLINES
+--------------------------------------------- */
+.headline.ja-zinhlwrap {
+	border-bottom: 1px solid #ddd;
+	margin-right: 1px;
+}
+
+.headline .ja-zincontent .inner {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.headline.ja-zinhlwrap h4.ja-zintitle {
+	font-size: 175%;
+}
+
+.headline .ja-zincontent img {
+	margin-right: 15px;
+}
+
+/* Control bar --- */
+.headline .ja-zinhl-controlbar {
+	position: absolute;
+	top: 0;
+	right: 15px;
+	padding: 5px 0;
+	display: block;
+}
+
+.headline .ja-zinhl-controlbar ul {
+	margin: 0 10px !important;
+	padding: 0 !important;
+	float: left;
+}
+
+.headline .ja-zinhl-controlbar li {
+	margin: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+	display: inline;
+}
+
+.headline .ja-zinhl-counter {
+	background: #333;
+	color: #fff;
+	padding: 1px 5px;
+	font-size: 92%;
+	letter-spacing: 1px;
+}

@@ -1,0 +1,154 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+#ja-wrapper div.ja-bulletin-wrap { position: relative; }
+
+#ja-wrapper div.ja-bulletin-wrap ul,ul.ja-bulettin {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin li div.box-left,
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_mega li div.box-left {
+   float: left;
+	margin-right: 10px;
+}
+
+#ja-wrapper div.ja-bulletin-wrap ul li,ul.ja-bullettin li {
+	margin: 0;
+	padding: 8px 0;
+	border-bottom: 1px solid #E6E6E6;
+	background: none;
+	position: relative;
+	width: 100%;
+	line-height: normal;
+}
+
+#ja-wrapper div.ja-bulletin-wrap ul img,
+ul.ja-bullettin img {
+	padding: 0;
+}
+
+#ja-wrapper div.ja-bulletin-wrap ul div,ul.ja-bullettin div {
+	line-height: 1.2;
+	display: block;
+}
+
+#ja-wrapper div.ja-bulletin-wrap ul div.box-right {
+	min-height: 30px;
+	padding: 0 !important;
+}
+
+#ja-wrapper div.ja-bulletin-wrap ul span, ul.ja-bullettin span {
+	font-size: 92%;
+	color: #999;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin li div.box-left {
+	border: solid 0px !important; 
+	float: left;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin li div.box-left img {
+	position: static;
+}
+
+#ja-wrapper .group-content div.ja-bulletin-wrap .ja-bulletin li div.box-left img {}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin li div.box-left span.hits {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	line-height: normal;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li {
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 10px;
+	padding-bottom: 0;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li a {
+	font: bold 110% Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li a:hover,
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li a:focus,
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li a:active {
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-left {
+	background: url(../images/stripe-bg-2.png) repeat 0 0 #F2F0ED;
+	border-right: 1px solid #ccc;
+	padding: 5px;
+	float: left;
+	margin-right: 10px;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-left img {
+	background: #fff;
+	padding: 3px;
+	position: static;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-left span.hits {
+	color: #666;
+	display: block;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+	padding-top: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal !important;
+	font-size: 92%;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-right strong { display: block; }
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-right {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	min-height: 85px;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-right a.readon {
+	font-size: 92%;
+	text-transform: uppercase;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-right span.post-date {
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+	font-size: 92%;
+	color: #999;
+	display: block;
+	margin-top: 5px;
+}
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-right span.post-date span { font-size: 100%; }
+
+#ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-right span.createby span {}
+
+.group-content #ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-left {
+	padding: 0;
+	margin-right: 5px;
+	background: none;
+	border: 0;
+}
+
+.group-content #ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li div.box-right { width: 220px; }
+
+.group-content #ja-wrapper div.ja-bulletin-wrap .ja-bulletin_world li {
+	margin-bottom: 5px;
+	padding-top: 5px;
+	border: none;
+}

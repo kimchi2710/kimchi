@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<form>
+	<fields 
+		name="params" 
+		addfieldpath="/modules/mod_janewspro/elements">
+		<fieldset 
+			name="basic">
+			<field 
+				name="group1" 
+				type="japaramhelper2" 
+				function="@group" level="3">
+					<option for="showimage" value="1" hideRow="true">thumbnail_mode,width,height,align</option>	
+					<option for="thumbnail_mode" value="crop" hideRow="true">use_ratio</option>
+					<option for="showdate" value="1" hideRow="true">timestamp</option>
+			</field>				
+			<field 
+				name="themesettings" 
+				type="japaramhelper" 
+				default="" 
+				level="2"
+				function="@title" 
+				label="THEME_SETTINGS" 
+				description="THEME_SETTINGS"/>
+				
+			<field 
+				name="themes" 
+				type="themes" 
+				default="" 
+				label="THEME_SELECTION" 
+				description="THEME_SELECTION_DESC"/>
+			
+			<field 
+				name="displaysettings" 
+				type="japaramhelper" 
+				default="" 
+				level="2"
+				function="@title" 
+				label="DISPLAY_SETTINGS" 
+				description="DISPLAY_SETTINGS"/>
+				
+			<field 
+				name="showusersetting" 
+				type="radio" 
+				default="1" 
+				label="SHOW_USER_SETTING_TOOL" 
+				description="SHOW_USER_SETTING_TOOL_DESC">
+					<option value="1">Show</option>
+					<option value="0">Hide</option>
+			</field>		
+			
+			<field 
+				name="cols" 
+				type="text" 
+				default="2" 
+				class="validate-numeric"
+				label="COLUMNS" 
+				description="COLUMNS_DESC" />
+				
+			<field 
+				name="introitems" 
+				type="text" 
+				default="1" 
+				class="validate-numeric"
+				label="INTRO_ITEMS" 
+				description="INTRO_ITEMS_DESC" />
+				
+			<field 
+				name="linkitems" 
+				type="text" 
+				default="3" 
+				class="validate-numeric"
+				label="LINK_ITEMS" 
+				description="LINK_ITEMS_DESC" />
+				
+			<field 
+				name="maxchars" 
+				type="text" 
+				default="0" 
+				class="validate-numeric"
+				label="MAX_CHARS" 
+				description="MAX_CHARS_DESC" />
+				
+			<field 
+				name="showcattitle" 
+				type="radio" 
+				default="1" 
+				label="SHOW_CATEGORY_TITLE" 
+				description="SHOW_CATEGORY_TITLE_DESC">
+					<option value="1">Show</option>
+					<option value="0">Hide</option>
+			</field>	
+			
+			<field 
+				name="showsubcattitle" 
+				type="radio" 
+				default="1" 
+				label="SHOW_SUB_CATEGORY_TITLE" 
+				description="SHOW_SUB_CATEGORY_TITLE_DESC">
+					<option value="1">Show</option>
+					<option value="0">Hide</option>
+			</field>
+			
+			<field 
+				name="showcreator" 
+				type="radio" 
+				default="0" 
+				label="SHOW_CREATE_BY" 
+				description="SHOW_CREATE_BY_DESC">
+					<option value="1">show</option>
+					<option value="0">hide</option>
+			</field>
+			
+			<field 
+				name="showdate" 
+				type="radio" 
+				default="0" 
+				label="SHOW_CREATE_DATE" 
+				description="SHOW_CREATE_DATE_DESC">
+					<option value="1">show</option>
+					<option value="0">hide</option>
+			</field>
+			<field 
+				name="timestamp" 
+				type="radio" 
+				default="0" 
+				label="ENABLE_TIMESTAMP" 
+				description="ENABLE_TIMESTAMP_DESC">
+					<option value="1">show</option>
+					<option value="0">hide</option>
+			</field>	
+			<field 
+				name="showreadmore" 
+				type="radio" 
+				default="0" 
+				label="SHOW_READMORE" 
+				description="SHOW_READMORE_DESC">
+					<option value="1">show</option>
+					<option value="0">hide</option>
+			</field>
+			<field 
+				name="showtooltip" 
+				type="radio" 
+				default="0" 
+				label="ENABLE_TOOLTIP" 
+				description="ENABLE_TOOLTIP_DESC">
+					<option value="1">show</option>
+					<option value="0">hide</option>
+			</field>		
+			<field 
+				name="imagesettings" 
+				type="japaramhelper" 
+				default="" 
+				level="2"
+				function="@title" 
+				label="IMAGE_SETTINGS" 
+				description="IMAGE_SETTINGS"/>
+				
+			<field 
+				name="showimage" 
+				type="radio" 
+				default="1" 
+				label="SHOW_IMAGE" 
+				description="SHOW_IMAGE_DESC">
+					<option value="1">show</option>
+					<option value="0">hide</option>
+			</field>
+			
+		
+			<field 
+				name="thumbnail_mode" 
+				type="list" 
+				default="crop" 
+				label="THUMBNAIL_MODE" 
+				description="THUMBNAIL_MODE_DESC">
+					<option value="none">USING_IMAGE_SOURCE</option>
+					<option value="resize">USING_RESIZE</option>
+					<option value="crop">USING_CROP</option>
+			</field>
+				
+			<field 
+				name="use_ratio" 
+				type="radio" 
+				default="1" 
+				label="RESIZE_WITH_THE_RATIO" 
+				description="RESIZE_WITH_THE_RATIO_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+			</field>
+			
+			<field 
+				name="width" 
+				type="text" 
+				default="100" 
+				class="validate-numeric"
+				label="IMAGE_WIDTH" 
+				description="IMAGE_WIDTH_DESC" />
+				
+			<field 
+				name="height" 
+				type="text" 
+				default="100" 
+				class="validate-numeric"
+				label="IMAGE_HEIGHT" 
+				description="IMAGE_HEIGHT_DESC" />
+				
+			<field 
+				name="align" 
+				type="radio" 
+				default="left" 
+				label="IMAGE_ALIGN" 
+				description="IMAGE_ALIGN_DESC">
+					<option value="left">Left</option>
+					<option value="right">Right</option>
+					<option value="0">None</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>Orange theme</name>
+	<description>Orange theme for JA Teline IV template</description>
+	<date>Dec 2010</date>
+	<version>1.1.0</version>
+	<author>JoomlArt</author>
+	<copyright>JoomlArt</copyright>
+	<!--Extra css load for this theme-->
+</theme>

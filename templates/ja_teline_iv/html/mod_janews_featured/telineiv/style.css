@@ -1,0 +1,114 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Teline IV Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+.telineiv .ja-zinfp {
+	background: #f0f0f0;
+	border: 1px solid #ccc;
+	margin-right: 4px;
+	padding: 4px 0 4px 4px;
+	position:relative;
+}
+
+.telineiv .ja-zinfp-main-wrap {
+	background: url(../../../images/curl-bg.png) no-repeat right -1px;
+	margin-top: -14px;
+	width:70%;
+	float:left;
+}
+
+.telineiv .ja-zinfp-main { background: #fff; border: 1px solid #aaa; margin-right:8px;}
+
+/* Featured News ----*/
+.telineiv .ja-zinfp-featured-wrap { width:auto }
+
+.telineiv .ja-zinfp-featured { }
+
+.telineiv .ja-zinfp-featured h2.ja-zintitle { font-size: 175%; line-height: 1; padding: 2px; }
+
+.telineiv .ja-zinfp-featured h2.ja-zintitle a,
+.telineiv .ja-zinfp-featured .ja-zincontent p { display: block; padding: 0 2px; }
+
+.telineiv .ja-zinfp-featured h2.ja-zintitle a:hover,
+.telineiv .ja-zinfp-featured h2.ja-zintitle a:active,
+.telineiv .ja-zinfp-featured h2.ja-zintitle a:focus { background: #000; color: #fff; text-decoration: none; }
+
+.telineiv .ja-zinfp-featured .ja-zincontent { padding: 10px; }
+
+.telineiv .ja-zinfp-featured .ja-zincontent img { border: 0; margin: 0 0 8px; }
+
+/* Normal News ----*/
+.telineiv .ja-zinfp-normal-wrap { background: #fff; border-top: 1px dotted #aaa; width:100%; }
+
+.telineiv .ja-zinfp-normal { padding: 12px 0 0 12px; }
+
+.telineiv .ja-zinfp-normal .ja-zincontent-wrap { width:33%; float:left; }
+
+.telineiv .ja-zinfp-normal .ja-zincontent {margin:0 12px 12px 0}
+
+.telineiv .ja-zinfp-normal .ja-zincontent img { margin-bottom: 5px; }
+
+.telineiv .ja-zinfp-normal span.ja-zintitle { font-weight: bold; line-height: 1.15; }
+
+.telineiv .ja-zinfp-normal .ja-zincontent span.ja-zinintro { display: none; }
+
+/* Additional Links ----*/
+.telineiv .ja-zinfp-links-wrap { color: #666; width:30%; float:right }
+
+.telineiv .ja-zinfp-links { padding: 12px 8px 12px 0; }
+
+.telineiv .ja-zinfp-links .ja-zincontent { border-bottom: 1px dotted #aaa; padding: 8px 5px }
+
+.telineiv .ja-zinfp-links .ja-zincontent h4 {margin:0; font-weight:normal}
+
+.telineiv .ja-zinfp-links .ja-zincontent h4 a{color:#666; padding:1px 3px;}
+
+.telineiv .ja-zinfp-links .ja-zincontent h4 a:hover{background:#000; color:#fff; text-decoration:none; }
+
+.telineiv .ja-zinfp-links ul { }
+
+.telineiv .ja-zinfp-links ul li {
+	background: 0;
+	border-bottom: 1px dotted #aaa;
+	line-height: normal;
+	margin: 0;
+	padding: 8px 5px !important;
+}
+
+.telineiv .ja-zinfp-links ul li a { color: #666; display: inline-block; padding: 1px 3px; }
+
+.telineiv .ja-zinfp-links ul li a:hover { background: #000; color: #fff; text-decoration: none; }
+
+/* Actions */
+.telineiv .ja-zinfp-links-actions {bottom: 0; right:10px; }
+
+.telineiv .ja-zinfp-links-actions a {
+	color: #666;
+	font: 10px/normal Arial, sans-serif;
+	padding: 2px 5px;
+	text-transform: uppercase;
+	float:left;
+}
+
+.telineiv .ja-zinfp-links-actions a:hover,
+.telineiv .ja-zinfp-links-actions a:active,
+.telineiv .ja-zinfp-links-actions a:focus { color: #000; text-decoration: none; }
+
+.telineiv a.ja-zinfp-links-actions-prev {
+	background: url(../../../images/back-btn.png) no-repeat left center;
+	padding-left: 10px;
+}
+
+.telineiv a.ja-zinfp-links-actions-next {
+	background: url(../../../images/next-btn.png) no-repeat right center;
+	padding-right: 10px;
+}
+
+.telineiv .ja-zinfp-links-actions span.next { display: none; }
